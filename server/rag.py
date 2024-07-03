@@ -3,7 +3,7 @@ import warnings
 from flask import Flask, request, jsonify, redirect, url_for, send_from_directory
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
-import pandas as pd
+# import pandas as pd
 from langchain_core.prompts import PromptTemplate
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.document_loaders import PyPDFLoader
